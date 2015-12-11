@@ -1,0 +1,66 @@
+SERIAL RESULTS
+Block size: 16
+Elapsed Time (sec)          : 793.928
+Max: 0.979365 L2norm: 0.498186
+
+
+VERSION 1 ===========================
+Block size: 4
+Elapsed Time (sec)          : 98.5563
+Max: 0.979365 L2norm: 0.498186
+
+Block size: 8
+Elapsed Time (sec)          : 31.9351
+Max: 0.979365 L2norm: 0.498186
+
+Block size: 16
+Elapsed Time (sec)          : 19.9474
+Max: 0.979365 L2norm: 0.498186
+
+Block size: 32
+Elapsed Time (sec)          : 17.5445
+Max: 0.979365 L2norm: 0.498186
+
+
+VERSION 2 ===========================
+Block size: 4
+Elapsed Time (sec)          : 77.0273
+Max: 0.979365 L2norm: 0.498186
+
+Block size: 8
+Elapsed Time (sec)          : 23.256
+Max: 0.979365 L2norm: 0.498186
+
+Block size: 16
+Elapsed Time (sec)          : 11.292
+Max: 0.979365 L2norm: 0.498186
+
+Block size: 32
+Elapsed Time (sec)          : 10.3443
+Max: 0.979365 L2norm: 0.498186
+
+VERSION 3 ===========================
+Block size: 4
+Elapsed Time (sec)          : 70.613
+Max: 0.979365 L2norm: 0.498186
+
+Block size: 8
+Elapsed Time (sec)          : 22.3383
+Max: 0.979365 L2norm: 0.498186
+
+Block size: 16
+Elapsed Time (sec)          : 10.9176
+Max: 0.979365 L2norm: 0.498186
+
+Block size: 32
+Elapsed Time (sec)          : 9.98445
+Max: 0.979365 L2norm: 0.498186
+
+
+
+
+
+
+
+
+

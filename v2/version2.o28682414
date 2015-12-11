@@ -1,0 +1,108 @@
+Block size: 4
+Grid Size       : 1024
+Duration of Sim : 100
+Time step dt    : 0.00431553
+Process geometry: 1 x 1
+
+Number of Iterations        : 23173
+Elapsed Time (sec)          : 77.0273
+Sustained Gflops Rate       : 8.83274
+Sustained Bandwidth (GB/sec): 10.0946
+
+Max: 0.979365 L2norm: 0.498186
+Block size: 8
+Grid Size       : 1024
+Duration of Sim : 100
+Time step dt    : 0.00431553
+Process geometry: 1 x 1
+
+Number of Iterations        : 23173
+Elapsed Time (sec)          : 23.256
+Sustained Gflops Rate       : 29.2554
+Sustained Bandwidth (GB/sec): 33.4347
+
+Max: 0.979365 L2norm: 0.498186
+Block size: 16
+Grid Size       : 1024
+Duration of Sim : 100
+Time step dt    : 0.00431553
+Process geometry: 1 x 1
+
+Number of Iterations        : 23173
+Elapsed Time (sec)          : 11.292
+Sustained Gflops Rate       : 60.2518
+Sustained Bandwidth (GB/sec): 68.8592
+
+Max: 0.979365 L2norm: 0.498186
+Block size: 32
+Grid Size       : 1024
+Duration of Sim : 100
+Time step dt    : 0.00431553
+Process geometry: 1 x 1
+
+Number of Iterations        : 23173
+Elapsed Time (sec)          : 10.3443
+Sustained Gflops Rate       : 65.7716
+Sustained Bandwidth (GB/sec): 75.1675
+
+Max: 0.979365 L2norm: 0.498186
+Job Id: 28682414.mgr-04.i
+    Job_Name = version2
+    Job_Owner = suszanmi@dev-intel14-k20.i
+    resources_used.cput = 00:00:44
+    resources_used.energy_used = 0
+    resources_used.mem = 124740kb
+    resources_used.vmem = 172407540kb
+    resources_used.walltime = 00:00:47
+    job_state = R
+    queue = main
+    server = mgr-04.i
+    Checkpoint = u
+    ctime = Thu Dec 10 03:27:39 2015
+    Error_Path = dev-intel14-k20.i:/mnt/home/suszanmi/cse491/cardiacSimCUDA1/v
+	2/version2.e28682414
+    exec_host = csn-009/4-5
+    exec_gpus = csn-009-gpu/1+csn-009-gpu/0
+    Hold_Types = n
+    Join_Path = n
+    Keep_Files = n
+    Mail_Points = a
+    mtime = Thu Dec 10 03:28:50 2015
+    Output_Path = dev-intel14-k20.i:/mnt/home/suszanmi/cse491/cardiacSimCUDA1/
+	v2/version2.o28682414
+    Priority = 0
+    qtime = Thu Dec 10 03:27:39 2015
+    Rerunable = False
+    Resource_List.feature = gpgpu:intel14
+    Resource_List.mem = 10gb
+    Resource_List.nodect = 1
+    Resource_List.nodes = 1:ppn=2:gpus=2
+    Resource_List.walltime = 00:20:00
+    session_id = 28223
+    Variable_List = PBS_O_QUEUE=main,PBS_O_HOME=/mnt/home/suszanmi,
+	PBS_O_LOGNAME=suszanmi,
+	PBS_O_PATH=/opt/software/powertools/bin:/opt/software/cudatoolkit/6.0
+	/computeprof/bin:/opt/software/cudatoolkit/6.0/bin:/opt/software/Stata
+	/13.0:/opt/software/R/2.15.1--GCC-4.4.5/bin:/opt/software/MATLAB/R2014
+	a/bin:/opt/software/Python/2.7.2--GCC-4.4.5/bin:/opt/software/cmake/2.
+	8.5--GCC-4.4.5/bin:/opt/software/OpenMPI/1.4.3--GCC-4.4.5/bin:/usr/lib
+	64/qt-3.3/bin:/opt/software/lmod/bin:/opt/moab/bin:/usr/local/bin:/bin
+	:/usr/bin:/usr/local/sbin:/usr/sbin:/sbin:/usr/local/hpcc/bin,
+	PBS_O_MAIL=/var/spool/mail/suszanmi,PBS_O_SHELL=/bin/bash,
+	PBS_O_LANG=en_US.UTF-8,
+	PBS_O_WORKDIR=/mnt/home/suszanmi/cse491/cardiacSimCUDA1/v2,
+	PBS_O_HOST=dev-intel14-k20.i,PBS_O_SERVER=mgr-04
+    euser = suszanmi
+    egroup = cse491_fs15_s2
+    queue_type = E
+    etime = Thu Dec 10 03:27:39 2015
+    submit_args = -l nodes=1:ppn=2:gpus=2,walltime=00:20:00,mem=10GB,
+	feature=gpgpu:intel14 -N version2 v2.qsub
+    start_time = Thu Dec 10 03:28:50 2015
+    Walltime.Remaining = 1076
+    start_count = 1
+    fault_tolerant = False
+    job_radix = 0
+    submit_host = dev-intel14-k20.i
+    gpu_flags = 1
+

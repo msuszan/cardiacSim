@@ -1,0 +1,8 @@
+cd ${PBS_O_WORKDIR}
+
+./cardiacsim -n 1024 -t 100 -b 4
+./cardiacsim -n 1024 -t 100 -b 8
+./cardiacsim -n 1024 -t 100 -b 16
+./cardiacsim -n 1024 -t 100 -b 32
+
+qstat -f ${PBS_JOBID}

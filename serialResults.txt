@@ -1,0 +1,14 @@
+[suszanmi@dev-intel14-k20 cardiacSimCUDA1]$ ./cardiacsim -n 1024 -t 100
+Grid Size       : 1024
+Duration of Sim : 100
+Time step dt    : 0.00431553
+Process geometry: 1 x 1
+
+Number of Iterations        : 23173
+Elapsed Time (sec)          : 793.928
+Sustained Gflops Rate       : 0.856957
+Sustained Bandwidth (GB/sec): 0.97938
+
+Max: 0.979365 L2norm: 0.498186
+[suszanmi@dev-intel14-k20 cardiacSimCUDA1]$
+
